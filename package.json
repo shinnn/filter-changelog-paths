@@ -1,0 +1,49 @@
+{
+  "name": "filter-changelog-paths",
+  "version": "1.0.0",
+  "description": "Extract CHANGELOG-like paths from multiple file paths",
+  "repository": "shinnn/filter-changelog-paths",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --fix --config @shinnn/node index.js test.js",
+    "test": "tap --coverage --reporter=spec test.js",
+    "test-only": "tap --reporter=spec test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "arr",
+    "ary",
+    "array",
+    "filter",
+    "filtering",
+    "extract",
+    "extraction",
+    "filename",
+    "filenames",
+    "name",
+    "path",
+    "paths",
+    "log",
+    "changelog",
+    "change-log",
+    "updates",
+    "releases",
+    "release-history",
+    "history",
+    "releasenote",
+    "match"
+  ],
+  "dependencies": {
+    "filtered-array-to-sentence": "^1.0.0",
+    "is-changelog-path": "^1.1.0"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node": "^1.0.1",
+    "eslint": "^1.10.2",
+    "nyc": "^4.0.1",
+    "tap": "^2.3.1"
+  }
+}
