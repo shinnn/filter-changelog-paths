@@ -4,8 +4,8 @@
 [![Build Status](https://travis-ci.org/shinnn/filter-changelog-paths.svg?branch=master)](https://travis-ci.org/shinnn/filter-changelog-paths)
 [![Build status](https://ci.appveyor.com/api/projects/status/7yw5cmfmry41iu9m/branch/master?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/filter-changelog-paths/branch/master)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/filter-changelog-paths.svg)](https://coveralls.io/github/shinnn/filter-changelog-paths)
-[![Dependency Status](https://david-dm.org/shinnn/filter-changelog-paths.svg)](https://david-dm.org/shinnn/filter-changelog-paths)
-[![devDependency Status](https://david-dm.org/shinnn/filter-changelog-paths/dev-status.svg)](https://david-dm.org/shinnn/filter-changelog-paths#info=devDependencies)
+[![dependencies Status](https://david-dm.org/shinnn/filter-changelog-paths/status.svg)](https://david-dm.org/shinnn/filter-changelog-paths)
+[![devDependencies Status](https://david-dm.org/shinnn/filter-changelog-paths/dev-status.svg)](https://david-dm.org/shinnn/filter-changelog-paths?type=dev)
 
 A [Node](https://nodejs.org/) module to extract CHANGELOG-like paths from multiple file paths
 
