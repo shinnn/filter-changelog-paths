@@ -41,9 +41,9 @@
     "is-changelog-path": "^1.1.0"
   },
   "devDependencies": {
-    "@shinnn/eslint-config-node": "^2.0.0",
-    "eslint": "^2.10.2",
-    "nyc": "^6.4.4",
-    "tap": "^5.7.2"
+    "@shinnn/eslint-config-node": "^3.0.0",
+    "eslint": "^3.4.0",
+    "nyc": "^8.1.0",
+    "tap": "^7.0.0"
   }
 }
