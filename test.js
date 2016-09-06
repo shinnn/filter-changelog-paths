@@ -1,11 +1,11 @@
-'use strong';
+'use strict';
 
 const path = require('path');
 
 const filterChangelogPaths = require('.');
-const tap = require('tap');
+const {test} = require('tap');
 
-tap.test('filterChangelogPaths', t => {
+test('filterChangelogPaths', t => {
   t.plan(6);
 
   t.strictEqual(filterChangelogPaths.name, 'filterChangelogPaths', 'should have a function name.');
@@ -46,7 +46,7 @@ tap.test('filterChangelogPaths', t => {
   );
 });
 
-tap.test('filterChangelogPaths.posix', t => {
+test('filterChangelogPaths.posix', t => {
   t.plan(2);
 
   t.strictEqual(
@@ -62,7 +62,7 @@ tap.test('filterChangelogPaths.posix', t => {
   );
 });
 
-tap.test('filterChangelogPaths.win32', t => {
+test('filterChangelogPaths.win32', t => {
   t.plan(2);
 
   t.strictEqual(
